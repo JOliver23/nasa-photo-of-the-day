@@ -8,7 +8,7 @@ function NasaGrid() {
 
     useEffect(() => {
         axios
-        .get('https://api.nasa.gov/planetary/apod')
+        .get('https://api.nasa.gov/planetary/apod?api_key=w8hdXDR9Ec4cfAniaGULbZmBvWExFePzFkMbdCQs')
         .then(response => console.log(response))
         .catch(err => console.log('Error: ', err))
     }, []);
