@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <p>
-         Have fun!
+         Built by: Jordan Oliver WebPT15!
       </p>
       <NasaGrid />
     </div>

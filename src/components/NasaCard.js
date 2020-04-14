@@ -1,4 +1,5 @@
 import React from "react";
+import "./NasaCard.css";
 
 const NasaCard = props => {
 

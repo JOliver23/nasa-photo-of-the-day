@@ -1,0 +1,7 @@
+.daily-img {
+    max-width: 100vw;
+    max-height: 60vh;
+    border: 1rem double #4f4f4f;
+    border-radius: 25%;
+    background-color: thistle;
+}

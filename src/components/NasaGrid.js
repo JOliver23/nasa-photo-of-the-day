@@ -17,7 +17,7 @@ function NasaGrid() {
     <div className="container">
         <div className="data-holder">
             <button className="change-img" onClick={() => setImgUrl("comet")}>Next Image</button>
-            <NasaCard title={nasaData.title} imgUrl={nasaData.url} description={nasaData.explanation} date={nasaData.date}/>
+            <NasaCard title={nasaData.title} imgUrl={nasaData.hdurl} description={nasaData.explanation} date={nasaData.date}/>
             {/* {nasaData.map(object => (
                 <NasaCard key={object.date} imgUrl={object.url} description={object.explanation} />
             ))} */}
