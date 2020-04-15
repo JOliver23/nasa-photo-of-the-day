@@ -5,10 +5,10 @@ import NasaGrid from "./components/NasaGrid";
 function App() {
   return (
     <div className="App">
+      <NasaGrid /> 
       <p>
          Built by: Jordan Oliver WebPT15!
       </p>
-      <NasaGrid />
     </div>
   );
 }
