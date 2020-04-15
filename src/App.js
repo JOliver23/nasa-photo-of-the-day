@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <NasaGrid /> 
-      <p>
+      <p className="me">
          Built by: Jordan Oliver WebPT15!
       </p>
     </div>
