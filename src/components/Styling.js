@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 export const APODCard = styled.div`
     width: 90vw;
-    heigth: 100vh;
+    heigth: 80vh;
     margin: 1rem 5vw;
     background: radial-gradient(rgb(81, 18, 105),rgb(23, 136, 136), rgb(114, 31, 107) );
 `;
@@ -19,6 +19,7 @@ export const StyleImg = styled.img`
     border: 1rem double #4f4f4f;
     border-radius: 25%;
     background-color: thistle;
+    margin: 2rem;
 `;
 
 export const InfoDiv = styled.div`
@@ -34,7 +35,26 @@ export const InfoDiv = styled.div`
 export const Txter = styled.p`
     font-family: 'Baloo Bhaina 2', cursive;
 
-    ${props => props.type ==="link" ? 'color: papayawhip; border: .2rem solid silver; border-radius: 23%;' : null}
     ${props => props.type ==="body" ? 'color: papayawhip; background: black; border: .1rem dotted white' : null}
     ${props => props.type === "date" ? 'border: .2rem double slategrey; background: linear-gradient(silver, white); font-size: large;' : null}
+`;
+
+export const ContNav = styled.div`
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   height: 10%;
+`;
+
+export const LinkCont = styled.div`
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+`;
+
+export const Linker = styled.a`
+    text-decoration: none;
+    font-family: 'Baloo Bhaina 2', cursive;
+
+    ${props => props.type ==="link" ? 'color: papayawhip; border: .2rem solid silver; border-radius: 23%;' : null}
 `;
