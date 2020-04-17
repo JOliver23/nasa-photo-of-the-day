@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import NasaCard from "./NasaCard";
+import NasaNav from "./NasaNav";
 
 function NasaGrid() {
     const [nasaData, setNasaData] = useState([]);
@@ -15,8 +16,8 @@ function NasaGrid() {
     return (
     <div className="container">
         <div className="data-holder">
-            <button className="change-img">HD Image</button>
-            <NasaCard title={nasaData.title} imgUrl={nasaData.url} description={nasaData.explanation} date={nasaData.date}/>
+            <NasaNav />
+            <NasaCard title={nasaData.title} imgUrl={nasaData.hdurl} description={nasaData.explanation} date={nasaData.date}/>
 
         </div>
     </div>
